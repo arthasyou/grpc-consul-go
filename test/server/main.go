@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	_ "github.com/luobin998877/go_grpc_with_consul/consul" // very important
-	"github.com/luobin998877/go_grpc_with_consul/service"
+	_ "github.com/arthasyou/grpc-consul-go/consul" // very important
+	"github.com/arthasyou/grpc-consul-go/service"
 )
 
 func main() {

@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/luobin998877/go_grpc_with_consul/pb"
-	"github.com/luobin998877/go_utility/logger"
+	"github.com/arthasyou/grpc-consul-go/pb"
+	"github.com/arthasyou/utility-go/logger"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 )

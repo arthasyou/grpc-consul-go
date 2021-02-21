@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	"github.com/luobin998877/go_grpc_with_consul/pb"
+	"github.com/arthasyou/grpc-consul-go/pb"
 )
 
 // Handler creates a service handler that will be used to handle message.

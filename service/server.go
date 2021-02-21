@@ -10,9 +10,9 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/health/grpc_health_v1"
 
-	"github.com/luobin998877/go_grpc_with_consul/consul"
-	"github.com/luobin998877/go_grpc_with_consul/pb"
-	"github.com/luobin998877/go_utility/logger"
+	"github.com/arthasyou/grpc-consul-go/consul"
+	"github.com/arthasyou/grpc-consul-go/pb"
+	"github.com/arthasyou/utility-go/logger"
 )
 
 // Service detail

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/arthasyou/utility-go/logger"
 	"github.com/hashicorp/consul/api"
-	"github.com/luobin998877/go_utility/logger"
 	"go.uber.org/zap"
 )
 

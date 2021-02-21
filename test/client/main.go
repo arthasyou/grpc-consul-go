@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/luobin998877/go_grpc_with_consul/service"
+	"github.com/arthasyou/grpc-consul-go/service"
 )
 
 func main() {

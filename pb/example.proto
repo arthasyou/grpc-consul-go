@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "github.com/luobin998877/go_grpc_with_consul/pb";
+option go_package = "github.com/arthasyou/grpc-consul-go/pb";
 
 package pb;
 
