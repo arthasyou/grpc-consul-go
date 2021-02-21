@@ -1,0 +1,42 @@
+syntax = "proto3";
+
+option go_package = "github.com/luobin998877/go_grpc_with_consul/pb";
+
+package pb;
+
+service Common {
+    rpc SocketFeature(SimpleRequest) returns (SimpleReply) {}
+    rpc ListFeature(SimpleRequest) returns (stream SimpleReply) {}
+    rpc JSONFeature(JsonRequest) returns (JsonReply) {}
+}
+
+message SimpleRequest {
+    string node = 1;
+    uint32 socketID = 2;
+    string ipAddr = 3;
+    uint64 traceID = 4;
+    uint64 seqID = 5;
+    uint32 cmd = 6;
+    bytes  data = 7;
+}
+
+message SimpleReply {
+    uint32 code = 1;
+    uint64 traceID = 2;
+    uint64 seqID = 3;
+    uint32 cmd = 4;
+    bytes  data = 5;   
+}
+
+message JsonRequest {
+    uint64 traceID = 1;
+    uint64 seqID = 2;
+    string path = 3;
+    bytes  data = 4;
+}
+
+message JsonReply {
+    uint64 traceID = 1;
+    uint64 seqID = 2;
+    bytes  data = 3;
+}
